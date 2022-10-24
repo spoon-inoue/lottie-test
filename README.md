@@ -2,6 +2,8 @@
 
 `After Effects` で作成したアニメーションを、`lottie` を使用して svg としてブラウザでアニメーションさせる。
 
+[🪶 デモ](https://spoon-inoue.github.io/lottie-test/)
+
 # 手順
 
 1. After Effects に、拡張機能 [bodymovin](https://exchange.adobe.com/apps/cc/12557) を導入します。
