@@ -1,16 +1,19 @@
 {
 	"name": "lottie-test",
+	"homepage": "https://spoon-inoue.github.io/lottie-test/",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
 		"start": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"deploy": "npm run build && gh-pages -d dist"
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.4",
 		"autoprefixer": "^10.4.12",
+		"gh-pages": "^4.0.0",
 		"ress": "^5.0.2",
 		"sass": "^1.54.5",
 		"typescript": "^4.6.4",
