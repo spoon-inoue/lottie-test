@@ -1,0 +1,23 @@
+{
+	"name": "lottie-test",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.4",
+		"autoprefixer": "^10.4.12",
+		"ress": "^5.0.2",
+		"sass": "^1.54.5",
+		"typescript": "^4.6.4",
+		"vite": "^3.0.7"
+	},
+	"dependencies": {
+		"gsap": "^3.11.3",
+		"lottie-web": "^5.9.6"
+	}
+}
